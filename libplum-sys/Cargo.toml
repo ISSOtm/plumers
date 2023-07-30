@@ -1,0 +1,10 @@
+[package]
+name = "libplum-sys"
+# The "build metadata" (i.e. everything after the `+`) is the libplum Git ref we are using.
+# It is read by `cargo xtask update_libplum`.
+version = "1.0.0+v1.2"
+edition = "2021"
+
+[build-dependencies]
+bindgen = "0.66.1"
+cc = "1.0.79"
